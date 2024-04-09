@@ -190,4 +190,25 @@ In summary, Task 6 highlights the importance of using template literals for stri
 
 ---
 
+### Task 7 : 7-getBudgetObject.js
+---
+
+Task 7 emphasizes the importance of using shorthand property syntax in JavaScript object literals, a feature introduced in ES6. Here's why this task is important:
+
+1. **Code Conciseness**: Shorthand property syntax allows developers to create object literals more concisely by using the variable names directly as property names. This eliminates the need to repeat the property names and reduces unnecessary verbosity in the code, leading to cleaner and more readable code.
+
+2. **Improved Readability**: By using shorthand property syntax, the intent of the code becomes clearer as it aligns with the variable names used to define the properties. This enhances code readability and makes it easier for developers to understand the structure and purpose of the objects being created.
+
+3. **Enhanced Maintainability**: Simplifying object creation with shorthand property syntax reduces the likelihood of errors and makes the codebase easier to maintain. Developers can quickly identify and update object properties without having to modify both property names and variable names separately.
+
+4. **Encourages Consistency**: Adopting shorthand property syntax promotes consistency in object literal declarations across the codebase. By using a standardized approach to define object properties, developers can establish coding conventions and ensure uniformity in coding style and practices.
+
+5. **Facilitates Refactoring**: Shorthand property syntax facilitates refactoring efforts by streamlining the process of renaming variables and object properties. When variable names change, developers can easily update the corresponding object property names in a single step, reducing the risk of introducing errors during refactoring.
+
+6. **Supports Modern JavaScript Practices**: Task 7 encourages developers to embrace modern JavaScript practices by leveraging ES6 language features like shorthand property syntax. Understanding and using this feature effectively are essential for writing clean, concise, and maintainable JavaScript code in modern web development projects.
+
+In summary, Task 7 highlights the importance of using shorthand property syntax in JavaScript object literals to enhance code conciseness, readability, maintainability, consistency, and support for modern JavaScript practices. By adopting this feature, developers can write more efficient and maintainable JavaScript code while adhering to best coding practices.
+
+---
+
 
