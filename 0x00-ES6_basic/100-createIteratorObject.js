@@ -6,14 +6,14 @@ export default function createIteratorObject(report) {
 
   const iterator = {
     next() {
-        if (index >= departments.length) {
-            return { done: true };
-        }
+      if (index >= departments.length) {
+        return { done: true };
+      }
 
-        return { value: departments[index++], done: false };
+      return { value: departments[index++], done: false };
     },
     [Symbol.iterator]() {
-        return this;
+      return this;
     }
   };
 
