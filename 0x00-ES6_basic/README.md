@@ -232,4 +232,25 @@ In summary, Task 8 highlights the importance of using computed property names in
 
 ---
 
+### Task 9 : 9-getFullBudget.js
+---
+
+Task 9 highlights the importance of using ES6 method properties in JavaScript object literals, a feature introduced in ES6. Here's why this task is important:
+
+1. **Enhanced Readability**: ES6 method properties provide a more concise and readable way to define methods within object literals. By using shorthand method syntax, developers can express the intent of the code more clearly, making it easier to understand and maintain.
+
+2. **Simplified Syntax**: Shorthand method syntax eliminates the need for the `function` keyword when defining methods within object literals. This simplifies the syntax and reduces unnecessary verbosity, resulting in cleaner and more expressive code.
+
+3. **Improved Object Initialization**: Utilizing ES6 method properties allows for a more streamlined process of object initialization, as methods can be defined directly within the object literal without additional syntax overhead. This enhances the efficiency and clarity of object creation in JavaScript.
+
+4. **Encourages Modern JavaScript Practices**: Task 9 encourages developers to adopt modern JavaScript practices by leveraging ES6 language features like shorthand method syntax. Understanding and using this feature effectively are essential for writing clean, concise, and maintainable JavaScript code in modern web development projects.
+
+5. **Supports Object-Oriented Programming (OOP) Paradigms**: ES6 method properties align with the principles of object-oriented programming (OOP) by providing a convenient way to encapsulate behavior within objects. This facilitates the creation of more modular, reusable, and extensible code structures.
+
+6. **Facilitates Code Refactoring**: Shorthand method syntax facilitates code refactoring efforts by simplifying the process of defining and updating object methods. Developers can easily add, remove, or modify methods within object literals without the need for extensive code modifications.
+
+In summary, Task 9 underscores the importance of using ES6 method properties in JavaScript object literals to enhance code readability, simplify syntax, improve object initialization, encourage modern JavaScript practices, support OOP principles, and facilitate code refactoring. By incorporating this feature into their code, developers can write more expressive, efficient, and maintainable JavaScript applications.
+
+---
+
 
