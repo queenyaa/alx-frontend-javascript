@@ -41,4 +41,23 @@ In summary, Task 0 is important because it provides a hands-on opportunity to le
 
 ---
 
+### Task 1 : 1-promise.js
+---
+
+Task 1, which involves creating a Promise using the provided function `getFullResponseFromAPI`, is important for several reasons:
+
+1. **Handling Different Scenarios**: It demonstrates how to handle different scenarios based on input parameters. In this case, the function should return a resolved Promise with a success message if the input parameter is `true`, and a rejected Promise with an error message if the input parameter is `false`. This helps developers understand how to structure their code to handle various situations.
+
+2. **Error Handling**: It provides an opportunity to practice error handling with Promises. By rejecting the Promise with an error message when the input parameter is `false`, developers learn how to handle errors gracefully and provide meaningful error messages to users or downstream code.
+
+3. **Understanding Promises**: Task 1 reinforces the understanding of Promises and how they are used to represent asynchronous operations in JavaScript. By creating a Promise that resolves or rejects based on certain conditions, developers gain a deeper understanding of how Promises work and their role in asynchronous programming.
+
+4. **Testing**: Writing tests for Task 1 allows developers to verify that the function behaves as expected under different conditions. This is crucial for ensuring the reliability and correctness of the code, especially in real-world applications where edge cases and unexpected inputs can occur.
+
+5. **Building Block for Complex Functionality**: Task 1 serves as a building block for more complex functionality that involves asynchronous operations and error handling. Understanding how to create Promises and handle different scenarios lays the foundation for building more sophisticated asynchronous workflows and handling errors in a systematic manner.
+
+In summary, Task 1 is important because it provides hands-on experience with Promises, error handling, and handling different scenarios based on input parameters. Mastery of these concepts is essential for writing robust, reliable, and maintainable JavaScript code.
+
+---
+
 
