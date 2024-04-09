@@ -211,4 +211,25 @@ In summary, Task 7 highlights the importance of using shorthand property syntax 
 
 ---
 
+### Task 8 : 8-getBudgetCurrentYear.js
+---
+
+Task 8 underscores the importance of utilizing computed property names in JavaScript object literals, a feature introduced in ES6. Here's why this task is important:
+
+1. **Dynamic Property Naming**: Computed property names allow developers to dynamically generate property names within object literals based on variable values or function results. This enables the creation of more flexible and expressive object structures that adapt to runtime conditions or external factors.
+
+2. **Reduced Redundancy**: By using computed property names, developers can avoid repetitive code patterns and reduce redundancy in object literal declarations. This leads to cleaner and more concise code, as property names and values can be defined in a single line without the need for additional assignments or calculations.
+
+3. **Enhanced Code Flexibility**: Computed property names provide greater flexibility in defining object properties, allowing for dynamic property naming schemes that can accommodate varying data sources, environments, or use cases. This flexibility facilitates the creation of more adaptable and reusable code.
+
+4. **Improved Readability and Maintainability**: Utilizing computed property names enhances code readability and maintainability by clearly expressing the relationship between property names and their corresponding values. Developers can easily understand the logic behind property naming and value assignment, making the codebase more accessible and easier to maintain.
+
+5. **Encourages Modern JavaScript Practices**: Task 8 encourages developers to adopt modern JavaScript practices by leveraging ES6 language features like computed property names. Understanding and using this feature effectively are essential for writing clean, concise, and maintainable JavaScript code in modern web development projects.
+
+6. **Supports Dynamic Data Structures**: Computed property names enable the creation of dynamic data structures that adapt to changing requirements or data inputs. This is particularly useful in scenarios where object properties need to be generated dynamically based on external factors or user interactions.
+
+In summary, Task 8 highlights the importance of using computed property names in JavaScript object literals to enhance code flexibility, reduce redundancy, improve readability and maintainability, and support modern JavaScript practices. By incorporating this feature into their code, developers can write more expressive, adaptable, and efficient JavaScript applications.
+
+---
+
 
