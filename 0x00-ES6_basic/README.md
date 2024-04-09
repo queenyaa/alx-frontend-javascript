@@ -47,3 +47,22 @@ In conclusion, Task 0 serves as a foundational exercise that instills good codin
 
 ---
 
+### Task 1 : 1-block-scoped.js
+---
+
+Task 1 focuses on understanding variable scoping in JavaScript and the differences between using `var`, `let`, and `const` for variable declaration. Importance:
+
+1. **Variable Scoping**: Task 1 highlights the importance of understanding variable scoping in JavaScript. It demonstrates how the choice of variable declaration (`var`, `let`, or `const`) affects the scope and visibility of variables within a function.
+
+2. **Block Scoping**: By modifying the variables inside the `taskBlock` function to use `let` or `const`, Task 1 introduces the concept of block-level scoping. It emphasizes the benefits of using `let` and `const` for variables that are only needed within a specific block of code.
+
+3. **Preventing Overwriting**: The task underscores the potential issues with using `var` for variable declaration, particularly its tendency to overwrite variables declared outside of conditional blocks. By using `let` or `const`, developers can avoid unintentional variable reassignment and potential bugs.
+
+4. **Maintainability**: Following best practices in variable declaration enhances code maintainability and readability. By using `let` or `const`, developers can convey their intent more clearly, making the code easier to understand and debug.
+
+5. **Modern JavaScript Practices**: Task 1 encourages the adoption of modern JavaScript practices by promoting the use of `let` and `const` over `var`. This aligns with the ECMAScript standards and community recommendations for writing clean, robust, and future-proof code.
+
+Overall, Task 1 serves as a foundational exercise in variable scoping and declaration, laying the groundwork for more advanced JavaScript concepts and best practices. It highlights the importance of choosing the right variable declaration method based on the intended scope and behavior of the variables, ultimately leading to more reliable and maintainable code.
+
+---
+
