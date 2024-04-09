@@ -60,4 +60,25 @@ In summary, Task 1 is important because it provides hands-on experience with Pro
 
 ---
 
+### Task 2 : 2-then.js
+---
+
+Task 2, which involves handling responses from an API using Promises, is important for several reasons:
+
+1. **Error Handling**: Task 2 provides an opportunity to practice error handling with Promises. By appending a `.catch()` handler to the Promise, developers learn how to handle errors gracefully and return appropriate error messages or objects when the Promise rejects. This is crucial for building robust and reliable asynchronous code.
+
+2. **Logging and Debugging**: It demonstrates how to log messages to the console for debugging purposes. By logging "Got a response from the API" to the console for every resolution, developers gain insight into the flow of asynchronous operations and can easily track the execution of the code.
+
+3. **Understanding Promise Chaining**: Task 2 involves chaining multiple Promise methods (`then`, `catch`, and `finally`). Understanding how to chain Promise methods allows developers to create complex asynchronous workflows and handle various scenarios effectively.
+
+4. **Asynchronous Programming Skills**: By working on Task 2, developers further enhance their skills in asynchronous programming. Asynchronous programming is fundamental in modern web development, especially when dealing with network requests, user interactions, and other asynchronous tasks.
+
+5. **Testing and Verification**: Writing tests for Task 2 allows developers to verify that the function behaves as expected under different conditions. This is essential for ensuring the reliability and correctness of the code, especially in real-world applications where edge cases and unexpected inputs can occur.
+
+6. **Code Readability and Maintainability**: Task 2 encourages writing clean, readable, and maintainable code. By following best practices in error handling, logging, and asynchronous programming, developers improve the overall quality of their codebase, making it easier to understand, debug, and maintain.
+
+In summary, Task 2 is important because it provides hands-on experience with error handling, logging, Promise chaining, and asynchronous programming, which are essential skills for building robust and reliable applications in JavaScript.
+
+---
+
 
