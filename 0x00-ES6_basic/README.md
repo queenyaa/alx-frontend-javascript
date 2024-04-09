@@ -253,4 +253,25 @@ In summary, Task 9 underscores the importance of using ES6 method properties in 
 
 ---
 
+### Task 10 : 10-loops.js
+---
+
+Task 10 highlights the importance of utilizing modern JavaScript features like the `for...of` loop and `let` declaration for variable scoping over the older `for...in` loop and `var` declaration. Here's why this task is important:
+
+1. **Compatibility with ES6 Standards**: Task 10 encourages developers to adopt ES6-compliant syntax by replacing `var` with `let` for variable declaration and using the `for...of` loop for array iteration. This ensures compatibility with modern JavaScript standards and promotes the use of best practices in code development.
+
+2. **Improved Code Readability**: The `for...of` loop provides a more intuitive and readable way to iterate over arrays compared to the `for...in` loop. It directly accesses the values of the array elements, making the code easier to understand for developers.
+
+3. **Prevents Unintended Variable Scope Issues**: Using `let` for variable declaration ensures block-level scoping, preventing unintended variable hoisting and scope pollution issues associated with `var`. This improves code maintainability and reduces the risk of bugs caused by unexpected variable behavior.
+
+4. **Encourages Modern JavaScript Practices**: Task 10 encourages developers to embrace modern JavaScript practices by leveraging ES6 language features. By adopting features like the `for...of` loop and `let` declaration, developers can write cleaner, more expressive, and future-proof code.
+
+5. **Supports Iteration over Iterable Objects**: The `for...of` loop is not limited to arrays but can iterate over any iterable object, including strings, maps, sets, and array-like objects. This versatility enhances the flexibility of JavaScript code and supports a wide range of data structures and collection types.
+
+6. **Enhances Performance**: In many cases, the `for...of` loop may offer better performance compared to the `for...in` loop, especially when iterating over arrays. This can lead to improved runtime efficiency and faster execution times for JavaScript applications.
+
+In summary, Task 10 underscores the importance of adopting modern JavaScript syntax and practices by replacing outdated constructs like `for...in` loops and `var` declarations with ES6-compliant alternatives like `for...of` loops and `let` declarations. By embracing these features, developers can write more readable, maintainable, and efficient JavaScript code.
+
+---
+
 
