@@ -297,4 +297,27 @@ In summary, Task 11 emphasizes the importance of creating utility functions to g
 
 ---
 
+### Task 12 : 12-createReportObject.js
+---
+
+Task 12 is important for several reasons:
+
+1. **Encapsulation of Functionality**: By creating the `createReportObject` function, developers can encapsulate the logic for generating a report object with specific properties and methods. This encapsulation promotes code organization and separation of concerns, making the codebase easier to understand and maintain.
+
+2. **Abstraction**: The `createReportObject` function abstracts away the details of how the report object is constructed. Other parts of the codebase can simply call this function to obtain the desired report object without needing to know the implementation details.
+
+3. **Code Reusability**: Once defined, the `createReportObject` function can be reused throughout the codebase whenever there's a need to generate a report object. This promotes code reusability, reduces duplication, and enhances productivity.
+
+4. **Modularity**: The function promotes modularity by providing a clear interface for generating report objects. Developers can easily modify or extend the functionality of the function without impacting other parts of the codebase.
+
+5. **Enhanced Readability**: Using descriptive function names like `createReportObject` improves code readability and enhances documentation. Other developers can quickly understand the purpose of the function and its intended usage, making collaboration easier.
+
+6. **Method Abstraction**: The `getNumberOfDepartments` method within the report object abstracts away the logic for calculating the number of departments. This encapsulation allows the method to be reused independently of the main function, promoting modularity and code reuse.
+
+7. **Promotion of ES6 Features**: Task 12 encourages the use of ES6 features such as method properties and spread syntax. This promotes familiarity with modern JavaScript syntax and best practices among developers, leading to more efficient and maintainable code.
+
+In summary, Task 12 emphasizes the importance of encapsulation, abstraction, code reusability, modularity, readability, and the use of modern JavaScript features in software development. By creating a dedicated function for generating report objects and promoting the use of ES6 syntax, developers can write cleaner, more modular, and more maintainable code.
+
+---
+
 
