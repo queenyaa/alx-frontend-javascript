@@ -188,4 +188,50 @@ In summary, Task 7 is important because it provides hands-on experience with man
 
 ---
 
+### Task 8 : 8-try.js
+---
+
+Task 8 is important for several reasons:
+
+1. **Error Handling**: It provides an opportunity to practice error handling in JavaScript. In real-world applications, it's essential to handle potential errors gracefully to prevent unexpected behavior and ensure a smooth user experience. Task 8 demonstrates how to handle the specific error condition of dividing by zero by throwing a custom error message.
+
+2. **Robustness**: By throwing an error when the denominator is zero, the function becomes more robust. This prevents the function from performing an invalid operation that could lead to incorrect results or unexpected behavior elsewhere in the application.
+
+3. **Defensive Programming**: Task 8 encourages defensive programming practices by checking for invalid inputs before performing operations. Checking the denominator before performing the division ensures that the function fails early and explicitly when presented with invalid input, rather than silently producing incorrect results.
+
+4. **Understanding Exception Handling**: Exception handling is a fundamental concept in programming. Task 8 helps developers understand how to use the `throw` statement to raise exceptions and how to handle those exceptions using try-catch blocks.
+
+5. **Testing**: Writing tests for Task 8 allows developers to verify that the function behaves as expected under various scenarios, including valid and invalid inputs. Testing the error condition ensures that the function throws the correct error message when dividing by zero.
+
+6. **Documentation**: Properly handling errors and throwing meaningful error messages improves code documentation. Developers who later encounter the error message will have a clear understanding of why the function failed and how to address the issue.
+
+In summary, Task 8 is important because it provides hands-on experience with error handling, defensive programming, exception handling, testing, and documentation. These skills are essential for writing reliable and maintainable JavaScript code in real-world applications.
+
+---
+
+### Task 9 : 9-try.js
+---
+
+Task 9 is important for several reasons:
+
+1. **Error Handling**: It provides an opportunity to practice error handling in JavaScript functions. Task 9 demonstrates how to catch errors that occur during the execution of a function and handle them appropriately, such as by appending the error message to a queue.
+
+2. **Function Composition**: Task 9 involves composing a higher-order function (`guardrail`) that takes another function (`mathFunction`) as an argument. Understanding function composition is essential for writing modular and reusable code.
+
+3. **Queue Management**: It introduces the concept of managing a queue data structure. The `guardrail` function maintains a queue where it stores the result or error message of the `mathFunction` along with the "Guardrail was processed" message.
+
+4. **Control Flow**: Task 9 involves managing control flow using try-catch-finally blocks. This construct allows for precise control over the execution of code and ensures that certain actions are taken regardless of whether an error occurs.
+
+5. **Error Reporting**: By appending error messages to the queue, Task 9 demonstrates how to provide meaningful feedback to users or developers about errors that occur during the execution of a function.
+
+6. **Testing**: Writing tests for Task 9 allows developers to verify that the `guardrail` function behaves as expected under various scenarios, including successful function executions and error conditions. Testing ensures that the function handles errors correctly and produces the expected output.
+
+7. **Debugging**: Task 9 provides an opportunity to practice debugging skills by inspecting the contents of the queue and identifying any unexpected behavior or errors in the code.
+
+8. **Documentation**: Properly handling errors and logging messages to the queue improves code documentation. Developers who later encounter the queue will have a clear understanding of the sequence of events that occurred during the execution of the `mathFunction`.
+
+In summary, Task 9 is important because it provides hands-on experience with error handling, function composition, queue management, control flow, error reporting, testing, debugging, and documentation. These skills are essential for writing reliable and maintainable JavaScript code in real-world applications.
+
+---
+
 
