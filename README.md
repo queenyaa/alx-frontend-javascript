@@ -39,4 +39,56 @@ Overall, the tasks progress from foundational JavaScript concepts like variables
 
 ---
 
+## 0x01-ES6_promise
+---
+
+As we navigate through tasks 0 to 10, we encounter a progression in complexity and concepts covered. Here's a summary of the navigation and complexity:
+
+1. **Task 0**: Introduction to Promises:
+   - Task 0 introduces the concept of Promises in JavaScript.
+   - It involves creating a simple Promise function and verifying its behavior.
+
+2. **Task 1**: Basic Promise Handling:
+   - Task 1 expands on Task 0 by incorporating error handling with Promises.
+   - It involves creating a Promise that resolves or rejects based on a boolean argument.
+
+3. **Task 2**: Promise Chaining with `then`:
+   - Task 2 explores chaining multiple `.then()` handlers to a Promise.
+   - It involves appending handlers to a Promise based on its resolution or rejection.
+
+4. **Task 3**: Handling Multiple Promises with `Promise.allSettled()`:
+   - Task 3 demonstrates handling multiple Promises concurrently using `Promise.allSettled()`.
+   - It involves resolving multiple Promises and logging their results collectively.
+
+5. **Task 4**: Returning a Promise:
+   - Task 4 focuses on creating a function that returns a resolved Promise.
+   - It involves returning a Promise with specified data upon function invocation.
+
+6. **Task 5**: Promise Rejection:
+   - Task 5 covers rejecting a Promise with an error message.
+   - It involves creating a function that rejects a Promise with a specified error message.
+
+7. **Task 6**: Advanced Promise Handling:
+   - Task 6 delves into more advanced Promise handling techniques.
+   - It involves appending handlers to a Promise and logging specific messages based on resolution or rejection.
+
+8. **Task 7**: Using `Promise.race()`:
+   - Task 7 introduces using `Promise.race()` to select the fastest resolving Promise.
+   - It involves implementing a function that returns the value of the first resolving Promise among multiple.
+
+9. **Task 8**: Error Handling with `try-catch`:
+   - Task 8 focuses on error handling using `try-catch` blocks.
+   - It involves creating a function that throws an error when dividing by zero and handling it gracefully.
+
+10. **Task 9**: Advanced Error Handling with `try-catch-finally`:
+    - Task 9 expands on error handling with `try-catch` by including a `finally` block.
+    - It involves creating a function that catches errors, executes cleanup actions, and returns the appropriate result.
+
+11. **Task 10**: Async/Await and Dependency Management:
+    - Task 10 integrates async/await syntax and dependency management with Promises.
+    - It involves creating an async function that calls multiple async functions, handles errors, and combines their results.
+
+Overall, the navigation from Task 0 to 10 progresses from basic Promise handling to more advanced concepts such as async/await syntax, error handling, dependency management, and Promise composition. Each task builds upon the previous one, gradually increasing in complexity and covering a broader range of asynchronous programming concepts in JavaScript.
+
+---
 
