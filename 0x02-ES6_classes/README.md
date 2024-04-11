@@ -101,3 +101,25 @@ In summary, Task 3 contributes to the overall robustness, reliability, and maint
 
 ---
 
+### Task 4 : 4-pricing.js
+---
+
+Task 4 is important for several reasons:
+
+1. **Data Representation**: Task 4 demonstrates how to represent pricing data in a structured and organized manner using a `Pricing` class. By encapsulating pricing attributes (`amount` and `currency`) within a class, the codebase becomes more readable, maintainable, and scalable.
+
+2. **Encapsulation and Abstraction**: The `Pricing` class encapsulates pricing attributes and provides an abstraction layer for accessing and manipulating them. This promotes code organization, reusability, and modularity by hiding implementation details and exposing a clean interface to interact with pricing data.
+
+3. **Data Integrity and Validation**: Task 4 enforces data integrity and validation by using getter and setter methods to control access to pricing attributes. By encapsulating attribute manipulation within these methods, you can enforce validation rules, error handling, and consistency checks to ensure that pricing data remains valid and consistent throughout the application.
+
+4. **Error Handling**: The `Pricing` class implements error handling mechanisms to handle invalid input gracefully. For example, if an attempt is made to set an invalid value for a pricing attribute, the setter method can throw an error with a descriptive message, allowing developers to identify and address issues promptly.
+
+5. **Static Methods**: Task 4 introduces the concept of static methods with the `convertPrice` method. Static methods can be called directly on the class without the need to create an instance, providing utility functions that are related to the class but do not depend on instance-specific data.
+
+6. **Code Reusability and Modularity**: Once implemented, the `Pricing` class can be reused throughout the project or in other projects where pricing data representation is required. This promotes code reusability, reduces redundancy, and enhances maintainability by leveraging existing code for similar tasks.
+
+In summary, Task 4 contributes to the overall robustness, reliability, and maintainability of the codebase by providing a structured and standardized approach to representing pricing data, enforcing data integrity and validation, promoting encapsulation, abstraction, error handling, static methods, and code reusability.
+
+---
+
+
