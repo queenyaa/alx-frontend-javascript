@@ -40,4 +40,44 @@ In summary, Task 0 sets the groundwork for creating a versatile and robust `Clas
 ### Task 1 : 1-make_classroom.js
 ---
 
+### Task 1 : 1-make_classroom.js
+---
+
+Task 1 is important for several reasons:
+
+1. **Integration Testing**: Task 1 tests the integration between the `ClassRoom` class defined in `0-classroom.js` and the `initializeRooms` function defined in `1-make_classrooms.js`. By importing and using the `ClassRoom` class within `initializeRooms`, Task 1 verifies that the class can be successfully imported and instantiated in another module.
+
+2. **Function Implementation**: Task 1 demonstrates how to implement a function (`initializeRooms`) that performs a specific task, which is to create an array of `ClassRoom` objects with predefined sizes. This task is common in many applications where multiple instances of a class need to be initialized with different parameters.
+
+3. **Modular Code Design**: By separating the implementation of the `ClassRoom` class and the `initializeRooms` function into separate files, Task 1 promotes modular code design. Modular code is easier to understand, maintain, and test, as each module focuses on a specific aspect of the application's functionality.
+
+4. **Code Reusability**: Once implemented, the `initializeRooms` function can be reused in other parts of the application or in other projects. This promotes code reusability, reducing development time and effort by leveraging existing code for similar tasks.
+
+5. **Maintainability**: Task 1 contributes to the maintainability of the codebase by encapsulating the logic for creating `ClassRoom` objects within a single function. If the initialization logic needs to be modified or updated in the future, it can be done in one central location (`initializeRooms`), rather than scattered throughout the codebase.
+
+In summary, Task 1 ensures the successful integration and usage of the `ClassRoom` class within the `initializeRooms` function, promotes modular code design and reusability, and contributes to the maintainability of the codebase.
+
+---
+
+### Task 2 : 2-hbtn_course.js
+---
+
+Task 2 is important for several reasons:
+
+1. **Type Verification**: By verifying the types of attributes during object creation, Task 2 ensures data integrity and prevents potential runtime errors. This is crucial for maintaining the correctness and reliability of the codebase.
+
+2. **Encapsulation and Abstraction**: Task 2 demonstrates the principles of encapsulation and abstraction by encapsulating the implementation details of the `HolbertonCourse` class within a clean interface. The use of getter and setter methods abstracts away the internal representation of the class attributes, providing controlled access to them.
+
+3. **Code Maintainability**: Task 2 promotes code maintainability by encapsulating validation logic within the class itself. If the validation rules need to be updated or modified in the future, they can be easily adjusted within the class without affecting other parts of the codebase.
+
+4. **Code Reusability**: Once implemented, the `HolbertonCourse` class can be reused throughout the project or in other projects. This promotes code reusability and reduces development time and effort by leveraging existing code for similar tasks.
+
+5. **Error Handling**: Task 2 includes error handling mechanisms to handle invalid input gracefully. By throwing appropriate `TypeError` exceptions with descriptive error messages, the code communicates errors clearly to developers, making debugging and troubleshooting easier.
+
+6. **Consistency and Standards**: Task 2 enforces coding standards and consistency by using static analysis tools like ESLint. This ensures that the code adheres to a set of predefined rules and best practices, enhancing readability and maintainability.
+
+In summary, Task 2 plays a crucial role in ensuring the correctness, reliability, and maintainability of the codebase by enforcing type verification, encapsulation, abstraction, error handling, and adherence to coding standards.
+
+---
+
 
