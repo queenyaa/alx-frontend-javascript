@@ -80,4 +80,24 @@ In summary, Task 2 plays a crucial role in ensuring the correctness, reliability
 
 ---
 
+### Task 3 : 3-currency.js
+---
+
+In this task:
+
+1. **Data Representation**: Task 3 demonstrates how to represent currency data in a structured and organized manner using a `Currency` class. By encapsulating currency attributes (`code` and `name`) within a class, the codebase becomes more readable, maintainable, and scalable.
+
+2. **Encapsulation and Abstraction**: The `Currency` class encapsulates currency attributes and provides an abstraction layer for accessing and manipulating them. This promotes code organization, reusability, and modularity by hiding implementation details and exposing a clean interface to interact with currency data.
+
+3. **Data Integrity and Validation**: Task 3 enforces data integrity and validation by using getter and setter methods to control access to currency attributes. By encapsulating attribute manipulation within these methods, you can enforce validation rules, error handling, and consistency checks to ensure that currency data remains valid and consistent throughout the application.
+
+4. **Error Handling**: The `Currency` class implements error handling mechanisms to handle invalid input gracefully. For example, if an attempt is made to set an invalid value for a currency attribute, the setter method can throw an error with a descriptive message, allowing developers to identify and address issues promptly.
+
+5. **Standardized Representation**: By providing a standardized format for displaying currency data (`name (code)`), Task 3 ensures consistency and uniformity in how currency information is presented within the application. This promotes a better user experience and facilitates communication and understanding among developers.
+
+6. **Code Reusability and Modularity**: Once implemented, the `Currency` class can be reused throughout the project or in other projects where currency data representation is required. This promotes code reusability, reduces redundancy, and enhances maintainability by leveraging existing code for similar tasks.
+
+In summary, Task 3 contributes to the overall robustness, reliability, and maintainability of the codebase by providing a structured and standardized approach to representing currency data, enforcing data integrity and validation, and promoting encapsulation, abstraction, error handling, and code reusability.
+
+---
 
