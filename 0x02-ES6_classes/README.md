@@ -184,4 +184,25 @@ In summary, Task 7 illustrates important principles of object-oriented programmi
 
 ---
 
+### Task 8 : 8-hbtn_class.js
+---
+
+In this task:
+
+1. **Type Conversion**: Task 8 demonstrates how to implement implicit type conversion in JavaScript. By overriding the `valueOf()` and `toString()` methods, the `HolbertonClass` class provides custom behavior for converting instances of the class into numbers and strings, respectively.
+
+2. **Flexibility**: Implicit type conversion allows instances of the `HolbertonClass` class to be used in contexts where numbers or strings are expected, providing flexibility in how they can be used throughout the codebase. This promotes code reusability and interoperability.
+
+3. **Customization**: Task 8 allows developers to customize the behavior of the class when it is converted into different types. For example, the class returns the size when converted into a number and the location when converted into a string. This customization can make the codebase more expressive and intuitive.
+
+4. **Consistency**: By defining consistent behavior for type conversion, Task 8 ensures that instances of the `HolbertonClass` class behave predictably across different parts of the application. This promotes code consistency and reduces the likelihood of unexpected behavior or bugs.
+
+5. **Semantic Clarity**: The implementation of implicit type conversion in Task 8 can improve the semantic clarity of the codebase. By providing custom behavior for converting instances of the class into numbers and strings, developers can convey the intended meaning of the class more clearly.
+
+6. **Enhanced Readability**: Task 8 contributes to the readability of the codebase by defining clear and concise ways to represent instances of the `HolbertonClass` class as numbers and strings. This can make the codebase easier to understand and maintain for other developers.
+
+In summary, Task 8 demonstrates how to implement implicit type conversion in JavaScript classes, providing flexibility, customization, consistency, semantic clarity, and enhanced readability to the codebase.
+
+---
+
 
