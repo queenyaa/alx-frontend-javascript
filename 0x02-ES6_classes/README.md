@@ -248,3 +248,23 @@ In summary, Task 10 is important as it introduces a fundamental concept of objec
 ---
 
 
+### Task 11 : 100-evcar.js
+---
+
+Task 11 is important for several reasons:
+
+1. **Inheritance**: Task 11 demonstrates inheritance in object-oriented programming. By extending the `Car` class to create the `EVCar` class, it showcases how subclasses can inherit properties and methods from their parent class. This promotes code reuse and modularity.
+
+2. **Polymorphism**: The implementation of the `cloneCar` method in the `EVCar` class demonstrates polymorphism. Polymorphism allows objects of different classes to be treated interchangeably if they share a common interface or inheritance hierarchy. In this case, the `cloneCar` method behaves differently in the `EVCar` class compared to the `Car` class, showcasing polymorphic behavior.
+
+3. **Privacy and Encapsulation**: Task 11 highlights the importance of privacy and encapsulation in object-oriented design. By using symbols to define private properties (`_brand`, `_motor`, `_color`) in the `Car` class and accessing them through symbols in the `EVCar` class, it ensures that internal implementation details are hidden from external code.
+
+4. **Code Reusability**: The `cloneCar` method in the `EVCar` class promotes code reusability. By overriding the method to return an instance of `Car`, it leverages the existing implementation of object cloning provided by the parent class. This reduces redundancy and improves maintainability.
+
+5. **Flexibility and Extensibility**: Task 11 enhances the flexibility and extensibility of the codebase. By introducing a new subclass (`EVCar`) that extends the functionality of the parent class (`Car`), it allows for the creation of specialized car objects with additional attributes (e.g., `range`) while retaining the core functionality of the parent class.
+
+6. **Testability**: The implementation of `EVCar` and its `cloneCar` method provides clear boundaries for testing. Developers can write unit tests to verify that object cloning behaves as expected for both `Car` and `EVCar` objects, ensuring the reliability of the code.
+
+In summary, Task 11 is important as it illustrates key concepts of object-oriented programming such as inheritance, polymorphism, privacy, encapsulation, code reusability, flexibility, extensibility, and testability. By implementing the `EVCar` class and its `cloneCar` method, it enhances the overall design and functionality of the codebase.
+
+---
