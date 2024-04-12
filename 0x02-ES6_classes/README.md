@@ -163,4 +163,25 @@ In summary, Task 6 illustrates important principles of object-oriented programmi
 
 ---
 
+### Task 7 : 7-airport.js
+---
+
+In this task:
+
+1. **Data Representation**: Task 7 demonstrates how to represent airport data in a structured and organized manner using an `Airport` class. By encapsulating airport attributes (`name` and `code`) within a class, the codebase becomes more readable, maintainable, and scalable.
+
+2. **Encapsulation**: The `Airport` class encapsulates airport attributes and provides controlled access to them through getter methods. This promotes data integrity and encapsulation, as access to class attributes is controlled and validated.
+
+3. **Default String Representation**: Task 7 introduces the concept of providing a default string representation for objects using the `toString()` method. This allows developers to define how an object should be represented as a string, making it easier to debug and display information about objects.
+
+4. **String Conversion**: By overriding the `toString()` method, Task 7 demonstrates how to customize the string representation of an object. This can be useful for logging, debugging, and displaying information to users in a human-readable format.
+
+5. **Code Organization**: Task 7 promotes a well-structured codebase by encapsulating related functionality within the `Airport` class. This makes the code easier to understand, maintain, and extend, leading to better overall code quality.
+
+6. **Consistency**: By defining a standard way to represent airport objects as strings, Task 7 ensures consistency in how airport information is displayed throughout the application. This promotes a uniform user experience and facilitates communication and understanding among developers.
+
+In summary, Task 7 illustrates important principles of object-oriented programming such as encapsulation, string representation, and code organization. By providing a structured and standardized approach to representing airport data and defining how it should be converted to a string, it promotes code readability, maintainability, and consistency.
+
+---
+
 
