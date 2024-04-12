@@ -92,3 +92,36 @@ Overall, the navigation from Task 0 to 10 progresses from basic Promise handling
 
 ---
 
+## 0x02-ES6_classes
+---
+
+Tasks 0 to 11 collectively aim to demonstrate various principles and practices in object-oriented programming (OOP) using JavaScript, specifically focusing on class implementation, inheritance, encapsulation, polymorphism, and code organization. Here's a summary of what each task seeks to achieve:
+
+1. **Task 0**: Introduces the concept of classes in ES6 and focuses on class instantiation and attribute assignment.
+
+2. **Task 1**: Builds on Task 0 by introducing class instantiation through a function that initializes multiple instances of a class.
+
+3. **Task 2**: Expands on class implementation by introducing getter and setter methods for class attributes and enforcing type validation for attribute values.
+
+4. **Task 3**: Demonstrates the implementation of a class with getter and setter methods, emphasizing the use of symbols for attribute storage and providing a formatted display method.
+
+5. **Task 4**: Introduces static methods in classes and demonstrates their usage for performing calculations or operations related to class attributes.
+
+6. **Task 5**: Illustrates the concept of abstract classes by defining a class with abstract methods that must be implemented by subclasses.
+
+7. **Task 6**: Extends the concept of inheritance by implementing a subclass that inherits from an abstract class and overrides its abstract methods.
+
+8. **Task 7**: Focuses on class instantiation and initialization with constructor attributes, emphasizing the use of symbols for attribute storage.
+
+9. **Task 8**: Introduces type coercion in JavaScript by implementing class methods that define the behavior when instances are cast to different data types.
+
+10. **Task 9**: Addresses code organization and hoisting issues by ensuring that classes and variables are defined before they are used.
+
+11. **Task 10**: Demonstrates object cloning in JavaScript by implementing a method to create a copy of an object with the same attributes.
+
+12. **Task 11**: Further extends class inheritance and polymorphism by implementing a subclass that overrides a method to modify its behavior.
+
+Overall, these tasks provide a comprehensive overview of OOP concepts in JavaScript, covering class implementation, inheritance, encapsulation, polymorphism, code organization, and best practices. Each task builds on the previous ones, gradually introducing new concepts and demonstrating their practical applications in real-world scenarios.
+
+---
+
