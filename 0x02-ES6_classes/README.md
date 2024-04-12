@@ -205,4 +205,46 @@ In summary, Task 8 demonstrates how to implement implicit type conversion in Jav
 
 ---
 
+### Task 9 : 9-hoisting.js
+---
+
+Task 9 is important for several reasons:
+
+1. **Correctness**: Task 9 addresses a code issue where classes are being referenced before they are defined. Fixing this issue ensures that the code behaves as intended and does not encounter errors related to undefined classes or variables.
+
+2. **Code Organization**: By defining classes and variables before they are used, Task 9 promotes a more organized and readable code structure. This makes it easier for developers to understand the codebase and maintain it over time.
+
+3. **Maintainability**: Properly organizing code by declaring classes and variables before they are used improves maintainability. It reduces the likelihood of introducing bugs or errors when modifying the code in the future.
+
+4. **Modularity**: Task 9 demonstrates the importance of modularizing code by separating it into distinct files. This helps manage complexity and allows developers to work on different parts of the codebase independently.
+
+5. **Code Reusability**: By encapsulating related functionality within classes, Task 9 promotes code reusability. Classes can be instantiated and reused in different parts of the codebase, reducing redundancy and improving efficiency.
+
+6. **Best Practices**: Following best practices such as declaring classes and variables before they are used is essential for writing clean and maintainable code. Task 9 highlights the importance of adhering to these practices to ensure code quality and reliability.
+
+In summary, Task 9 is important for ensuring code correctness, organization, maintainability, modularity, code reusability, and adherence to best practices. By fixing the code issue related to class hoisting, it improves the overall quality and reliability of the codebase.
+
+---
+
+### Task 10 : 10-car.js
+---
+
+Task 10 is important for several reasons:
+
+1. **Object Cloning**: Task 10 demonstrates how to implement a method to clone objects in JavaScript. Object cloning is a common operation in programming, allowing developers to create copies of objects without altering the original object's state.
+
+2. **Data Integrity**: By providing a method to clone objects, Task 10 helps maintain data integrity. Instead of directly modifying or sharing object references, developers can clone objects to work with independent copies, reducing the risk of unintended side effects or data corruption.
+
+3. **Encapsulation**: The use of symbols in Task 10 for attribute names (`_brand`, `_motor`, `_color`) ensures encapsulation of object properties. Symbols provide unique keys that cannot be accessed from outside the class, promoting information hiding and preventing accidental modification of object attributes.
+
+4. **Class Composition**: The `cloneCar` method implemented in Task 10 is an example of class composition, where a class encapsulates behavior related to object cloning. This promotes modular and reusable code, as the cloning functionality can be easily added to other classes as needed.
+
+5. **Maintainability**: Task 10 contributes to code maintainability by providing a standardized and encapsulated way to clone objects. Developers can reuse the `cloneCar` method across different parts of the codebase, reducing redundancy and ensuring consistency in object cloning operations.
+
+6. **Flexibility**: Having a method to clone objects enhances the flexibility of the codebase. Developers can clone objects with ease, enabling them to experiment with different object states, perform deep copying, or implement object creation patterns such as prototype-based inheritance.
+
+In summary, Task 10 is important as it introduces a fundamental concept of object cloning in JavaScript, promoting data integrity, encapsulation, class composition, maintainability, and flexibility in the codebase.
+
+---
+
 
