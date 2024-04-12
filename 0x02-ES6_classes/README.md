@@ -122,4 +122,45 @@ In summary, Task 4 contributes to the overall robustness, reliability, and maint
 
 ---
 
+### Task 5 : 5-building.js
+---
+
+Task 5 is important for several reasons:
+
+1. **Abstraction**: Task 5 introduces the concept of abstract classes, which are classes that cannot be instantiated on their own and are meant to be subclassed. By defining the `Building` class as an abstract class, it provides a blueprint for other classes to inherit from while enforcing certain requirements.
+
+2. **Contract Enforcement**: Task 5 ensures that any class that extends from `Building` must implement a specific method named `evacuationWarningMessage`. This helps enforce a contract between the base class (`Building`) and its subclasses, ensuring that certain functionality is implemented consistently across all subclasses.
+
+3. **Error Handling**: Task 5 includes error handling mechanisms to handle cases where a subclass does not implement the required method. If a subclass fails to override the `evacuationWarningMessage` method, an error is thrown with a descriptive message, alerting developers to the issue and guiding them towards resolving it.
+
+4. **Code Maintenance**: By establishing clear expectations for subclasses, Task 5 promotes code maintainability. Developers can easily understand the requirements for subclassing `Building` and can quickly identify any violations of those requirements.
+
+5. **Extensibility**: Task 5 allows for the creation of diverse subclasses that extend the functionality of the `Building` class while ensuring adherence to a common interface. This promotes code extensibility, allowing for the creation of new building types with unique behaviors and properties.
+
+6. **Consistency**: By enforcing the implementation of the `evacuationWarningMessage` method across all subclasses, Task 5 ensures consistency in the behavior of different types of buildings. This helps maintain a predictable and understandable codebase, reducing confusion and potential errors.
+
+In summary, Task 5 establishes best practices for creating abstract classes and ensures that subclasses adhere to a specific interface, promoting code consistency, maintainability, and extensibility. It also provides error handling mechanisms to alert developers to potential issues with subclass implementation.
+
+---
+
+### Task 6 : 6-sky_high.js
+
+Task 6 is important for several reasons:
+
+1. **Inheritance**: Task 6 demonstrates inheritance, a fundamental concept in object-oriented programming. The `SkyHighBuilding` class extends the functionality of the `Building` class, inheriting its attributes and methods. This allows for code reuse and promotes a hierarchical organization of classes.
+
+2. **Code Reusability**: By extending the `Building` class, the `SkyHighBuilding` class inherits its attributes and methods. This promotes code reusability, as common functionality and data representation defined in the `Building` class can be utilized in subclasses like `SkyHighBuilding`.
+
+3. **Polymorphism**: Task 6 showcases polymorphism, another essential concept in object-oriented programming. The `evacuationWarningMessage` method is overridden in the `SkyHighBuilding` class to provide specialized behavior specific to sky-high buildings. This allows for the same method name to behave differently in different contexts.
+
+4. **Encapsulation**: Both the `Building` and `SkyHighBuilding` classes encapsulate their attributes and provide controlled access to them through getter methods. This promotes data integrity and encapsulation, as access to class attributes is controlled and validated.
+
+5. **Error Handling**: Task 6 does not explicitly handle errors related to class instantiation or attribute assignment, but it indirectly encourages proper error handling practices. By defining clear requirements for subclass implementation (e.g., overriding the `evacuationWarningMessage` method), the codebase becomes more robust and less prone to runtime errors.
+
+6. **Code Organization**: Task 6 promotes a well-structured codebase by organizing related classes into a hierarchy. The `Building` class serves as a base class, while the `SkyHighBuilding` class extends its functionality for a specific type of building. This promotes modularity, maintainability, and readability of the code.
+
+In summary, Task 6 illustrates important principles of object-oriented programming such as inheritance, polymorphism, encapsulation, and code organization. By extending the functionality of the `Building` class to create a specialized subclass `SkyHighBuilding`, it promotes code reusability, maintainability, and robustness.
+
+---
+
 
