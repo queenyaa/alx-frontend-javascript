@@ -142,4 +142,53 @@ In summary, Task 5 reinforces fundamental programming concepts related to binary
 
 ---
 
+### Task 6 : 6-set.js
+---
+Task 6 is significant for the following reasons:
+
+1. **Understanding Set Data Structure**: Sets are a fundamental data structure in JavaScript that stores unique values of any type, making them useful for various programming tasks. Task 6 helps developers understand how to work with Sets and utilize them effectively in their code.
+
+2. **Data Deduplication**: One of the primary benefits of Sets is that they automatically remove duplicate elements. Task 6 demonstrates how to leverage Sets to eliminate duplicates from an array, which is a common requirement in many applications. This promotes cleaner and more efficient data processing.
+
+3. **Maintaining Element Order**: Sets preserve the order of elements as they appear in the array. This behavior is different from objects in JavaScript, which do not guarantee order. Task 6 illustrates how Sets retain the original order of elements from the input array, providing predictable behavior for developers.
+
+4. **Performance Optimization**: Sets offer efficient operations for adding, removing, and checking for the presence of elements. By converting an array to a Set, developers can benefit from fast lookup times and streamlined operations. Task 6 encourages the use of Sets for performance optimization in scenarios where uniqueness is a requirement.
+
+5. **Code Readability and Expressiveness**: Utilizing Sets in code enhances readability and expressiveness. The intention of removing duplicates or storing unique values is conveyed explicitly by using a Set, leading to more understandable and maintainable code.
+
+6. **Functional Programming Principles**: Sets align with functional programming principles by promoting immutability and avoiding side effects. Task 6 encourages developers to adopt functional programming practices by leveraging Set methods to manipulate data in a declarative and concise manner.
+
+7. **Cross-browser Compatibility**: Sets are a standard feature of ECMAScript 6 (ES6), supported by most modern browsers. Task 6 demonstrates the use of Sets in a cross-browser context, ensuring compatibility and consistency across different JavaScript environments.
+
+8. **Testing and Validation**: Testing the `setFromArray` function validates its correctness and ensures that it behaves as expected. Writing unit tests for this function helps identify and address any issues, ensuring robustness and reliability in production environments.
+
+In summary, Task 6 reinforces fundamental programming concepts related to Sets, data deduplication, and performance optimization. It equips developers with valuable skills and techniques for working with Sets effectively, leading to cleaner, more efficient, and maintainable code.
+
+---
+
+### Task 7 : 7-has_array_values.js
+---
+
+Task 7 holds importance in several aspects of software development:
+
+1. **Data Validation**: Task 7 involves validating whether all elements in an array exist within a Set. Data validation is crucial for ensuring the integrity and reliability of data processed by an application. By checking if all array elements are present in the Set, developers can verify the correctness of the data and prevent errors caused by missing or incorrect values.
+
+2. **Input Verification**: The function `hasValuesFromArray` verifies the input parameters—a Set and an array—to ensure they are of the expected types and formats. Proper input verification helps prevent runtime errors and enhances the robustness of the code.
+
+3. **Algorithmic Understanding**: Implementing `hasValuesFromArray` requires understanding how to iterate over array elements and efficiently check for their presence in a Set. This task encourages developers to apply algorithmic thinking and problem-solving skills to devise an optimal solution.
+
+4. **Performance Optimization**: Efficiently checking for the presence of array elements in a Set is essential for maintaining good performance, especially when dealing with large datasets. Task 7 encourages developers to implement algorithms that minimize computational complexity and optimize resource usage.
+
+5. **Functional Programming Principles**: The function `hasValuesFromArray` follows functional programming principles by avoiding side effects and providing a clear and declarative way to determine whether all array elements exist in the Set. Embracing functional programming principles leads to cleaner, more maintainable codebases.
+
+6. **Unit Testing**: Testing the `hasValuesFromArray` function ensures its correctness and reliability. Writing unit tests for this function helps identify and address any issues, ensuring that the function behaves as expected under different scenarios.
+
+7. **Real-world Relevance**: Validating whether all elements in an array exist within a Set is a common requirement in various applications, such as access control, data synchronization, and database querying. Task 7 simulates a real-world scenario, providing developers with practical experience that can be directly applied in professional settings.
+
+8. **Code Reusability**: The `hasValuesFromArray` function can be reused across different parts of an application or shared among multiple projects. Code reusability promotes modularization, reduces duplication, and improves maintainability, leading to more scalable and flexible software solutions.
+
+In summary, Task 7 reinforces fundamental programming concepts related to data validation, algorithmic efficiency, and functional programming. It equips developers with valuable skills and techniques for verifying data integrity, optimizing performance, and writing reliable and maintainable code.
+
+---
+
 
