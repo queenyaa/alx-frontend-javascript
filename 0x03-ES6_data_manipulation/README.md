@@ -48,4 +48,27 @@ In summary, Task 1 plays a vital role in reinforcing fundamental programming con
 
 ---
 
+### Task 2 : 2-get_students_by_loc.js
+---
+
+Task 2 is important for several reasons in the context of software development:
+
+1. **Data Filtering Proficiency**: Task 2 requires developers to filter a list of student objects based on a specific criterion (the location attribute). This demonstrates proficiency in data filtering techniques, a common requirement in many software applications.
+
+2. **Function Composition and Reusability**: By creating the `getStudentsByLocation` function, developers promote code modularity and reusability. This function encapsulates a specific functionality (filtering students by location), making it reusable across different parts of the application.
+
+3. **Parameterized Behavior**: The function accepts parameters for the list of students and the target city, enabling dynamic behavior based on input values. This supports flexible usage of the function in various contexts and scenarios, enhancing its versatility and utility.
+
+4. **Functional Programming Principles**: Leveraging the `filter` function to selectively extract elements from an array aligns with functional programming principles. This approach promotes code readability, maintainability, and expressiveness by focusing on data transformations rather than imperative control flow.
+
+5. **Testing and Validation**: Task 2 encourages testing the `getStudentsByLocation` function with different inputs to ensure its correctness and robustness. Thorough testing validates the function's behavior under various conditions, helping to identify and address potential edge cases or bugs.
+
+6. **Documentation and Communication**: Documenting the purpose, usage, and behavior of the `getStudentsByLocation` function in the README.md file facilitates communication within development teams. Clear documentation aids in understanding the function's functionality, enabling effective collaboration and integration into larger projects.
+
+7. **Integration with Existing Codebase**: The function integrates seamlessly with the `getListStudents` function from Task 0, demonstrating interoperability and compatibility within the codebase. This reinforces the importance of cohesive design and interoperable components in building scalable and maintainable software systems.
+
+Overall, Task 2 reinforces fundamental programming concepts, promotes best practices in software development, and prepares developers for real-world scenarios where data manipulation, function composition, and testing are essential.
+
+---
+
 
