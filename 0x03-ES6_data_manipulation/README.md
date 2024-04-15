@@ -25,4 +25,27 @@ Overall, Task 0 plays a crucial role in reinforcing fundamental concepts of Java
 
 ---
 
+### Task 1 : 1-get_list_student_ids.js
+---
+
+Task 1 holds significance in the following aspects of software development:
+
+1. **Data Manipulation Proficiency**: By creating the `getListStudentIds` function, developers demonstrate their ability to manipulate complex data structures. This task requires extracting specific data (i.e., the `id` attribute) from an array of objects, showcasing proficiency in data manipulation techniques.
+
+2. **Error Handling**: The task specifies that if the input argument is not an array, the function should return an empty array. Implementing this behavior demonstrates the developer's understanding of error handling and defensive programming practices, ensuring the function gracefully handles unexpected inputs.
+
+3. **Functional Programming Principles**: Utilizing the `map` function to transform each object in the array into its `id` attribute exemplifies the application of functional programming principles. Functional programming promotes the use of higher-order functions and immutable data structures, enhancing code readability, maintainability, and testability.
+
+4. **Reusability and Modularity**: The `getListStudentIds` function encapsulates a specific functionality, making it reusable and modular. Modular code facilitates code reuse across different parts of an application, promoting code efficiency and reducing redundancy.
+
+5. **Testing and Validation**: Testing the `getListStudentIds` function ensures that it behaves as expected under various scenarios. Thorough testing validates the correctness of the implementation, verifies adherence to specifications, and identifies potential edge cases or bugs early in the development cycle.
+
+6. **Code Quality and Standards Compliance**: Implementing the function in accordance with the task requirements demonstrates adherence to coding standards and best practices. Writing clean, well-structured code enhances code quality, fosters collaboration among team members, and facilitates code maintenance and scalability.
+
+7. **Documentation and Communication**: Documenting the purpose, usage, and behavior of the `getListStudentIds` function in the README.md file promotes effective communication within development teams. Clear documentation aids in understanding the function's functionality, enabling seamless integration into larger projects.
+
+In summary, Task 1 plays a vital role in reinforcing fundamental programming concepts, promoting code quality and maintainability, and preparing developers for real-world scenarios where data manipulation, error handling, and functional programming principles are essential.
+
+---
+
 
