@@ -241,4 +241,49 @@ In summary, Task 9 provides valuable experience in working with Maps and represe
 
 ---
 
+### Task 10 : 10-update_uniq_items.js
+---
 
+Task 10 is significant for several reasons:
+
+1. **Data Transformation**: It demonstrates the process of transforming data stored in a Map by updating specific entries based on certain criteria—in this case, updating the quantity of items with an initial quantity of 1 to 100. Data transformation is a common task in software development, and Task 10 provides valuable experience in handling such transformations.
+
+2. **Error Handling**: Task 10 includes error handling to ensure that the provided argument is indeed a Map. If the provided argument is not a Map, an error is thrown with a descriptive message. Proper error handling enhances the robustness and reliability of the code, preventing unexpected behavior or crashes.
+
+3. **Function Modularity**: The `updateUniqueItems` function encapsulates the logic for updating unique items within a Map. By isolating this logic within a separate function, Task 10 promotes function modularity, making the code more organized, maintainable, and reusable.
+
+4. **Code Quality**: Task 10 contributes to code quality by encouraging developers to write clean, readable, and well-structured code. The function `updateUniqueItems` follows best practices such as descriptive function and variable names, clear error handling, and concise logic, enhancing overall code quality.
+
+5. **Real-world Relevance**: Task 10 simulates a real-world scenario where developers need to update specific data entries based on predefined criteria. Such tasks are common in various domains, including e-commerce, inventory management, and data processing. Completing Task 10 provides practical experience applicable to real-world software development projects.
+
+6. **Testing**: Testing the `updateUniqueItems` function ensures its correctness and reliability. Writing unit tests for Task 10 helps verify that the function behaves as expected under different scenarios, including valid and invalid input data. Proper testing contributes to the stability and maintainability of the codebase.
+
+7. **Algorithmic Thinking**: Task 10 requires algorithmic thinking to devise an efficient solution for updating unique items within a Map. Developers must consider factors such as computational complexity, data integrity, and error handling while designing the function. Task 10 encourages developers to apply algorithmic principles to solve real-world problems effectively.
+
+In summary, Task 10 provides valuable experience in data transformation, error handling, function modularity, and code quality. By completing Task 10, developers can enhance their problem-solving skills and gain practical knowledge applicable to a wide range of software development scenarios.
+
+---
+
+### Task 11 : 100-weak.js
+---
+
+Task 11 holds importance for several reasons:
+
+1. **Resource Monitoring**: The task involves tracking the usage of an API endpoint by counting the number of times a function (`queryAPI`) is called with a specific endpoint. This functionality enables developers to monitor resource usage and identify potential performance issues, such as high load on particular endpoints.
+
+2. **Error Handling**: Task 11 demonstrates the use of error handling to manage exceptional scenarios. By throwing an error when the number of queries for an endpoint exceeds a certain threshold (in this case, 5), the code ensures that developers are alerted to potentially problematic situations, allowing them to take appropriate action.
+
+3. **Memory Management**: The use of a WeakMap (`weakMap`) for tracking endpoint usage is significant for memory management. WeakMaps allow objects to be associated with metadata without preventing garbage collection, making them suitable for scenarios where metadata needs to be tied to objects temporarily.
+
+4. **Function Reusability**: The `queryAPI` function is designed to be reusable across different endpoints. This promotes code reusability and modularity, as developers can use the same function to track usage for multiple endpoints without duplicating code or implementing separate tracking mechanisms.
+
+5. **Performance Optimization**: By monitoring endpoint usage, developers can identify bottlenecks and optimize performance where necessary. Task 11 encourages proactive performance optimization by alerting developers to endpoints experiencing high load, allowing them to investigate and implement optimizations as needed.
+
+6. **Real-world Application**: Task 11 simulates a real-world scenario where developers need to monitor and manage the usage of API endpoints. Similar monitoring and management tasks are common in web development, microservices architecture, and API-driven applications, making Task 11 directly applicable to real-world software development projects.
+
+7. **Testing**: Testing the `queryAPI` function ensures its correctness and reliability. Writing unit tests for Task 11 helps verify that the function behaves as expected under various scenarios, including normal usage and error conditions. Proper testing contributes to the stability and robustness of the codebase.
+
+8. **Code Maintainability**: The clear separation of concerns in Task 11—tracking endpoint usage within the `queryAPI` function—enhances code maintainability. Developers can easily understand and modify the function without impacting other parts of the codebase, facilitating ongoing maintenance and updates.
+
+In summary, Task 11 provides valuable experience in resource monitoring, error handling, memory management, and performance optimization in the context of API usage. By completing Task 11, developers gain practical skills applicable to real-world scenarios and contribute to the development of robust and efficient software applications.
+---
