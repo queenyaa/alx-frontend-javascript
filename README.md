@@ -157,4 +157,61 @@ Overall, the progression from Task 0 to 11 gradually introduces and builds upon 
 
 ---
 
+## 0x04-TypeScript
+---
+
+Sure, here's a summary of the navigation through tasks and their complexity as we move from Task 0 to Task 11:
+
+1. **Task 0**:
+   - In Task 0, you start by setting up basic TypeScript configuration and writing simple interfaces and functions to manipulate data structures.
+   - Complexity: Low to Medium. Task 0 involves basic setup and usage of TypeScript features like interfaces, arrays, and functions.
+
+2. **Task 1**:
+   - Task 1 introduces more complex interfaces with specific constraints and requirements, such as initializing certain attributes only once.
+   - Complexity: Medium. You need to understand and implement stricter rules for object initialization using TypeScript interfaces.
+
+3. **Task 2**:
+   - Task 2 extends interfaces to build a hierarchy, demonstrating inheritance and specialization.
+   - Complexity: Medium. You need to understand interface extension and inheritance concepts.
+
+4. **Task 3**:
+   - Task 3 involves writing functions that operate on given inputs and return specific outputs based on predefined rules.
+   - Complexity: Medium. You need to implement functions with defined behavior based on input parameters.
+
+5. **Task 4**:
+   - Task 4 introduces classes, constructors, and methods, emphasizing object-oriented programming principles.
+   - Complexity: Medium to High. You need to understand class structure and method implementation.
+
+6. **Task 5**:
+   - Task 5 focuses on implementing interfaces and classes within namespaces, organizing related code into logical units.
+   - Complexity: Medium to High. Understanding namespaces and their usage adds complexity to the tasks.
+
+7. **Task 6**:
+   - Task 6 involves writing conditional logic to determine behavior based on object types.
+   - Complexity: Medium. You need to implement conditional logic to execute specific tasks based on object types.
+
+8. **Task 7**:
+   - Task 7 introduces string literal types and functions that operate on specific string values.
+   - Complexity: Medium. You need to understand string literal types and implement functions with specific string inputs.
+
+9. **Task 8**:
+   - Task 8 involves setting up ambient module declarations and integrating third-party libraries into TypeScript projects.
+   - Complexity: High. Configuring ambient modules and integrating external libraries requires a deeper understanding of TypeScript and module systems.
+
+10. **Task 9**:
+    - Task 9 extends the concept of interfaces and classes, introducing more complex interactions and specialization within namespaces.
+    - Complexity: High. Task 9 involves implementing interfaces, classes, and methods within namespaces, as well as dealing with multiple file dependencies.
+
+11. **Task 10**:
+    - Task 10 requires combining multiple concepts learned in previous tasks, such as interfaces, classes, functions, and namespaces, to achieve specific functionality.
+    - Complexity: High. You need to integrate and orchestrate various components to accomplish the task's objectives.
+
+12. **Task 11**:
+    - Task 11 involves defining interfaces and functions to manipulate data structures with specific requirements and constraints.
+    - Complexity: Medium to High. You need to understand and implement interfaces and functions with specific rules and behavior.
+
+Overall, the complexity of tasks gradually increases as you progress from Task 0 to Task 11, covering a wide range of TypeScript concepts and techniques. Each task builds upon the previous one, reinforcing and expanding your knowledge and skills in TypeScript development.
+
+---
+
 
